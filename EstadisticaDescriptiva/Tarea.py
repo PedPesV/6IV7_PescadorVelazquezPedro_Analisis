@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Cargar el archivo CSV
-df = pd.read_csv("./EstadisticaDescriptiva/housing.csv")
+df = pd.read_csv("./EstadisticaDescriptiva/libros/housing.csv")
 
 # Mostrar primeras y últimas filas
 print("Primeras 5 filas del dataset:\n", df.head().to_string(index=False))
