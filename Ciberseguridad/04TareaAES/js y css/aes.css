@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Contenedor principal del menú */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Contenedores de cifrado/descifrado */
+.container_cifrado, .container_descifrado {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los botones */
+button, .button, .retur {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+button:hover, .button:hover, .retur:hover {
+    background-color: #2980b9;
+}
+
+.button_cifrar, .button_des {
+    margin: 20px 0;
+    display: inline-block;
+}
+
+/* Estilos para los campos de texto */
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.resultado {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el input de archivo */
+.file {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Botón de regresar */
+.button_return {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.retur a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container, .container_cifrado, .container_descifrado {
+        margin: 20px;
+        padding: 20px;
+    }
+}
