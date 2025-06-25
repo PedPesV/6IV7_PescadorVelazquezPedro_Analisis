@@ -124,11 +124,11 @@ public class Descifrar extends JFrame {
     
     public void descifrarNumero(){
         cadenacifrada = contcif.getText().trim();
-        String[] partes = cadenacifrada.split(" ");
-        BigInteger[] cifrado = new BigInteger[partes.length];
+        String[] dividir = cadenacifrada.split(" ");
+        BigInteger[] cifrado = new BigInteger[dividir.length];
         
-        for(int i = 0; i < partes.length; i++){
-            cifrado[i] = new BigInteger(partes[i]);
+        for(int i = 0; i < dividir.length; i++){
+            cifrado[i] = new BigInteger(dividir[i]);
         }
         
         d = new BigInteger(contd.getText());
